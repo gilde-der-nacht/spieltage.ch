@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://spieltage.ch/testspider/</loc>
+    <lastmod>2019-11-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://spieltage.ch/contact/</loc>
     <lastmod>2019-09-04T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -44,6 +49,21 @@
                 rel="alternate"
                 hreflang="de"
                 href="https://spieltage.ch/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://spieltage.ch/helping/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://spieltage.ch/en/helping/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://spieltage.ch/helping/"
                 />
   </url>
   

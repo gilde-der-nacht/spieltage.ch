@@ -30,5 +30,19 @@
       (function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = &#39;EMAIL&#39;; ftypes[0] = &#39;email&#39;; fnames[1] = &#39;FNAME&#39;; ftypes[1] = &#39;text&#39;; fnames[2] = &#39;LNAME&#39;; ftypes[2] = &#39;text&#39;; }(jQuery)); var $mcj = jQuery.</description>
     </item>
     
+    <item>
+      <title>Helping</title>
+      <link>https://spieltage.ch/en/helping/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://spieltage.ch/en/helping/</guid>
+      <description>Hello friends.
+The next Luzerner Spieltage are just around the corner.
+And we need you for that!
+Please contact us today and let us know your dream job. Of course we try to meet your wishes, but we are happy if you are flexible.
+Our goal is to keep the duration of the shifts as short as possible. The Spieltage last as follows:
+Saturday, 7 March 2020, 10 a.m. to midnight Sunday, 8 March 2020, 10 a.</description>
+    </item>
+    
   </channel>
 </rss>
