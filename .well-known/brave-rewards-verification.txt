@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: spieltage.ch
-Token: c6dcf9326dfd83e58ceeccd79eacd700603f3db90a41ede6f9ea99a23eda39ad
