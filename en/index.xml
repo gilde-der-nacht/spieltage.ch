@@ -17,7 +17,7 @@
       
       <guid>https://spieltage.ch/en/contact/</guid>
       <description>Write us and we will get back to you within 24 hours.
- Name * E-mail * Message *     </description>
+ Name * E-mail * Message *  Leer lassen document.querySelector(&#39;.c-form--captcha&#39;).style.display = &#39;none&#39;;    </description>
     </item>
     
     <item>

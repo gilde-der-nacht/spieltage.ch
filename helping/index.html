@@ -7,8 +7,8 @@
   
   <meta name="generator" content="Hugo 0.56.3" />
   
-  <link rel="stylesheet" href="/sass/main.min.0b4af045062d3c0eccc3bd2cacb2d4950e612f9da3e5f4d1c05de004b8977231.css" media="screen"
-    integrity="sha256-C0rwRQYtPA7Mw70srLLUlQ5hL52j5fTRwF3gBLiXcjE=" />
+  <link rel="stylesheet" href="/sass/main.min.417ef72c703462db95b5f0a0100f6d8c3ad8ad28635b1313efb51faba924b3f7.css" media="screen"
+    integrity="sha256-QX73LHA0YtuVtfCgEA9tjDrYrShjWxMT77Ufq6kks/c=" />
 </head>
   <body>
     <header>
@@ -97,6 +97,7 @@
 <li><a href="#erklärbär">Erklärbär</a></li>
 <li><a href="#auf-und-abbau">Auf- und Abbau</a></li>
 <li><a href="#ansager">Ansager</a></li>
+<li><a href="#rollenspielleiter">Rollenspielleiter</a></li>
 </ul></li>
 </ul></li>
 <li><a href="#anmeldung-helfer">Anmeldung Helfer</a></li>
@@ -171,12 +172,19 @@
 <li>Du sagst die Turniere an und gibst den Sieger bekannt.</li>
 </ul>
 
+<h3 id="rollenspielleiter">Rollenspielleiter</h3>
+
+<ul>
+<li>Du möchtest eine Rollenspielrunde leiten und erklärst gerne die Grundzüge des gemeinsamen Geschichtenerzählens.</li>
+</ul>
+
 <h1 id="anmeldung-helfer">Anmeldung Helfer</h1>
 
 <p>Wir freuen uns auf deine Antwort und bedanken uns bereits jetzt für deine Unterstützung!</p>
 
 <div class="c-form">
-  <form action="https://api.gildedernacht.ch/form/01dbedd3cb60e8969e26028d97a5c53dde17e5e4910019e29285ccb632b6b967" method="POST">
+  <form action="https://api.gildedernacht.ch/form/"
+    method="POST">
     <div>
       
   <p class="c-form--item c-form-field--text">
@@ -200,6 +208,13 @@
 	
 </p>
 
+
+
+      <p class="c-form--item c-form-field--text c-form--captcha">
+        <label for="private-captcha">Leer lassen</label>
+        <input name="private-captcha" type="email" />
+      </p>
+      <script>document.querySelector('.c-form--captcha').style.display = 'none';</script>
 
       <input class="c-btn" type="submit" value="Absenden">
       <input type="hidden" name="redirect" value="https://spieltage.ch/helping/">

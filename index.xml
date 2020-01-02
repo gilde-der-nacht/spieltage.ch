@@ -38,7 +38,7 @@ Improvisation: ★
       
       <guid>https://spieltage.ch/contact/</guid>
       <description>Wir hören gerne von dir und antworten dir auch innerhalb von 24 Stunden.
- Name * E-Mail * Nachricht *     </description>
+ Name * E-Mail * Nachricht *  Leer lassen document.querySelector(&#39;.c-form--captcha&#39;).style.display = &#39;none&#39;;    </description>
     </item>
     
     <item>
