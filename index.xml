@@ -61,7 +61,7 @@ Ihr sind im Jahr 1890, auf einem ruhigen Flug auf einem Luftschiff. Eigentlich w
       
       <guid>https://spieltage.ch/contact/</guid>
       <description>Wir hören gerne von dir und antworten dir auch innerhalb von 24 Stunden.
- Name * E-Mail * Nachricht *  Leer lassen document.querySelector(&#39;.c-form--captcha&#39;).style.display = &#39;none&#39;;    Fehler: Deine Nachricht wurde leider als SPAM markiert und nicht weitergeleitet. Versuche es bitte erneut.  Vielen Dank für deine Nachricht!   &#39;use strict&#39;; const getQueryVariable = (variable) = { const query = window.location.search.substring(1); const vars = query.split(&#39;&amp;&#39;); for (let i = 0; i </description>
+ Name * E-Mail * Nachricht *  Leer lassen document.querySelector(&#39;.c-form--captcha&#39;).style.display = &#39;none&#39;;    Fehler: Deine Nachricht wurde leider als SPAM markiert und nicht weitergeleitet. Versuche es bitte erneut.  Vielen Dank für deine Nachricht!   &#39;use strict&#39;; const getQueryVariable = (variable) = { const query = window.location.search.substring(1); const vars = query.split(&#39;&amp;&#39;); for (let i = 0; i Organisatoren Oliver</description>
     </item>
     
     <item>

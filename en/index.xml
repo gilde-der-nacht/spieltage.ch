@@ -54,7 +54,7 @@ The higher the value, the more time the game master takes to explain the basics 
       
       <guid>https://spieltage.ch/en/contact/</guid>
       <description>Write us and we will get back to you within 24 hours.
- Name * E-mail * Message *  Leer lassen document.querySelector(&#39;.c-form--captcha&#39;).style.display = &#39;none&#39;;    Error: Your message is sadly been marked as SPAM and not been forwarded. Please try again.  Thank you for your message!   &#39;use strict&#39;; const getQueryVariable = (variable) = { const query = window.location.search.substring(1); const vars = query.split(&#39;&amp;&#39;); for (let i = 0; i </description>
+ Name * E-mail * Message *  Leer lassen document.querySelector(&#39;.c-form--captcha&#39;).style.display = &#39;none&#39;;    Error: Your message is sadly been marked as SPAM and not been forwarded. Please try again.  Thank you for your message!   &#39;use strict&#39;; const getQueryVariable = (variable) = { const query = window.location.search.substring(1); const vars = query.split(&#39;&amp;&#39;); for (let i = 0; i Organizers Oliver</description>
     </item>
     
     <item>
