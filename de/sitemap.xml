@@ -3,13 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://spieltage.ch/program/</loc>
-    <lastmod>2020-02-03T00:00:00+00:00</lastmod>
+    <loc>https://spieltage.ch/partner/</loc>
+    <lastmod>2020-02-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://spieltage.ch/en/partner/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://spieltage.ch/partner/"
+                />
   </url>
   
   <url>
-    <loc>https://spieltage.ch/rollenspiele/</loc>
+    <loc>https://spieltage.ch/program/</loc>
+    <lastmod>2020-02-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://spieltage.ch/en/program/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://spieltage.ch/program/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://spieltage.ch/roleplay/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://spieltage.ch/en/roleplay/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://spieltage.ch/roleplay/"
+                />
   </url>
   
   <url>

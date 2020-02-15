@@ -11,6 +11,43 @@
     
     
     <item>
+      <title>Partners</title>
+      <link>https://spieltage.ch/en/partner/</link>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://spieltage.ch/en/partner/</guid>
+      <description> .logo-grid { display: grid; grid-template-columns: repeat(2,1fr); grid-gap: 50px; justify-items: center; } .logo-grid img { width: 250px; } .logo-grid .smaller { width: 140px; }           </description>
+    </item>
+    
+    <item>
+      <title>Program</title>
+      <link>https://spieltage.ch/en/program/</link>
+      <pubDate>Mon, 03 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://spieltage.ch/en/program/</guid>
+      <description>A rich and varied programme is provided on the Luzerner Spieltage:
+  Source: Library, Luzerner Spieltage 2018    Card and board games The large library with games for young and old, for strategists and connoisseurs, for individual or team fighters is the focus of the event - discover games with us, which we will explain to you on site without you having to pick up the rule book.</description>
+    </item>
+    
+    <item>
+      <title>Roleplay</title>
+      <link>https://spieltage.ch/en/roleplay/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://spieltage.ch/en/roleplay/</guid>
+      <description>Only english rounds are being displayed. For the german game rounds please change language of the website.
+Dungeons &amp;amp; Dragons          Beginnerfriendly Family friendly Fantasy Magic Puzzle Improvisation    Game master: Daniel
+Player count: 4
+Time: Saturday, at noon
+Duration: 3-4 hours
+Language: English
+Description
+&amp;hellip; in progress
+Legend Beginner friendly
+The higher the value, the more time the game master takes to explain the basics of roleplaying to you.</description>
+    </item>
+    
+    <item>
       <title>Contact</title>
       <link>https://spieltage.ch/en/contact/</link>
       <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>

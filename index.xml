@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>Partner</title>
+      <link>https://spieltage.ch/partner/</link>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://spieltage.ch/partner/</guid>
+      <description> .logo-grid { display: grid; grid-template-columns: repeat(2,1fr); grid-gap: 50px; justify-items: center; } .logo-grid img { width: 250px; } .logo-grid .smaller { width: 140px; }           </description>
+    </item>
+    
+    <item>
       <title>Programm</title>
       <link>https://spieltage.ch/program/</link>
       <pubDate>Mon, 03 Feb 2020 00:00:00 +0000</pubDate>
@@ -23,10 +32,10 @@
     
     <item>
       <title>Rollenspiele</title>
-      <link>https://spieltage.ch/rollenspiele/</link>
+      <link>https://spieltage.ch/roleplay/</link>
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://spieltage.ch/rollenspiele/</guid>
+      <guid>https://spieltage.ch/roleplay/</guid>
       <description>Finsterland (Steampunk)          Anfängerfreundlich Für die ganze Familie Burgen &amp;amp; Rittertum Magie &amp;amp; Zauberwerk Rätsel Improvisation    Spielleiter: Manuela
 Anzahl Spieler: 4
 Wann: Samstag, 14 Uhr

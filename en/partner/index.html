@@ -3,7 +3,7 @@
   <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Luzerner Spieltage | Contact</title>
+  <title>Luzerner Spieltage | Partners</title>
   
   <meta name="generator" content="Hugo 0.56.3" />
   
@@ -32,7 +32,7 @@
           </li>
           
           <li>
-            <a href="/contact/">Deutsch</a>
+            <a href="/partner/">Deutsch</a>
           </li>
           
         </ul>
@@ -85,92 +85,57 @@
   
 
   
-  <h1>Contact</h1>
+  <h1>Partners</h1>
 
   
 </div>
     <main class="o-inner-container">
       
   
-    <p>Write us and we will get back to you within 24 hours.</p>
-
-<div class="c-form">
-  <form action="https://api.gildedernacht.ch/form/65adbe232fcbb16d738d57defcf2a9010d65e895f77a46e1542ff65df8aada34"
-    method="POST">
-    <div>
-      
-  <p class="c-form--item c-form-field--text">
-	<label for="private-name">Name *</label>
-	
-		<input name="private-name" id="private-name" type="text" placeholder="Name" required>
-	
-</p>
-
-  <p class="c-form--item c-form-field--text">
-	<label for="private-email">E-mail *</label>
-	
-		<input name="private-email" id="private-email" type="email" placeholder="E-mail" required>
-	
-</p>
-
-  <p class="c-form--item c-form-field--text">
-	<label for="private-message">Message *</label>
-	
-		<textarea name="private-message" id="private-message" placeholder="Message" required></textarea>
-	
-</p>
-
-
-
-      <p class="c-form--item c-form-field--text c-form--captcha">
-        <label for="private-captcha">Leer lassen</label>
-        <input name="private-captcha" type="email" />
-      </p>
-      <script>document.querySelector('.c-form--captcha').style.display = 'none';</script>
-
-      <input class="c-btn" type="submit" value="Submit">
-      <input type="hidden" name="redirect" value="https://spieltage.ch/en/contact/">
-      <input type="hidden" name="identification" value="https://spieltage.ch/en/contact/">
-    </div>
-  </form>
-</div>
-
-
-
-
-<section class="c-message c-message--spam" data-type="spam">
-    Error: Your message is sadly been marked as SPAM and not been forwarded. Please try again.
-</section>
-
-
-
-<section class="c-message c-message--success" data-type="success">
-    Thank you for your message!
-</section>
-
-
-
-<script>
-    'use strict';
-    const getQueryVariable = (variable) => {
-        const query = window.location.search.substring(1);
-        const vars = query.split('&');
-        for (let i = 0; i < vars.length; i++) {
-            const pair = vars[i].split('=');
-            if (pair[0] == variable) {
-                return pair[1];
-            }
-        }
-        return false;
-    };
-
-    const msgType = getQueryVariable('msg');
-    const msgElem = document.querySelector('section[data-type="' + msgType + '"]');
-    if (msgElem) {
-        msgElem.classList.add('visible');
+    <style>
+    .logo-grid {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 50px;
+        justify-items: center;
     }
-</script>
 
+    .logo-grid img {
+        width: 250px;
+    }
+
+    .logo-grid .smaller {
+        width: 140px;
+    }
+</style>
+
+<div class="logo-grid">
+    <a href="https://gameplace.ch/">
+        <img class="smaller" src="/logos/gp-logo.png"/>
+    </a>
+    <a href="http://freakatorium.ch/">
+        <img class="smaller" src="/logos/freak-logo.png"/>
+    </a>
+    <a href="https://dubischdra.ch/">
+        <img class="smaller" src="/logos/dubischdra.jpg"/>
+    </a>
+    <a href="https://www.mannsgoeggeli.ch/">
+        <img class="smaller" src="/logos/mg-logo.png"/>
+    </a>
+    <a href="https://gameorama.ch/">
+        <img src="/logos/gameorama.png"/>
+    </a>
+    <img src="/logos/ludenti.png"/>
+    <a href="https://www.helvetiq.com/">
+        <img src="/logos/helvetiq.jpg"/>
+    </a>
+    <a href="https://www.brettspielblog.ch/">
+        <img src="/logos/brettspielblog.png"/>
+    </a>
+    <a href="https://www.spieltreff-zo.ch/">
+        <img src="/logos/spieltreff-zo.png"/>
+    </a>
+</div>
 
 
     </main>
