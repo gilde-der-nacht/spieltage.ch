@@ -11,41 +11,6 @@
     
     
     <item>
-      <title>Partner</title>
-      <link>https://spieltage.ch/partner/</link>
-      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://spieltage.ch/partner/</guid>
-      <description> .logo-grid { display: grid; grid-template-columns: repeat(2,1fr); grid-gap: 50px; justify-items: center; } .logo-grid img { width: 250px; } .logo-grid .smaller { width: 140px; }           </description>
-    </item>
-    
-    <item>
-      <title>Programm</title>
-      <link>https://spieltage.ch/program/</link>
-      <pubDate>Mon, 03 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://spieltage.ch/program/</guid>
-      <description>Für ein abwechslungsreiches Programm ist an den Luzerner Spieltagen gesorgt:
-  Quelle: Bibliothek, Luzerner Spieltage 2018    Karten- und Brettspiele Die grosse Bibliothek mit Spielen für Jung und Alt, für Strategen und Geniesser, für Einzel- oder Teamkämpfer steht im Fokus des Anlasses – entdecke mit uns Spiele, welche wir dir vor Ort erklären, ohne dass du das Regelbuch in die Hand nehmen musst.
-  Quelle: Rollenspiel, Luzerner Spieltage 2019    Rollenspiele Tauche mit uns ein in die unendliche Welt der Phantasie, wo wir gemeinsam einzigartige Geschichten erleben werden.</description>
-    </item>
-    
-    <item>
-      <title>Rollenspiele</title>
-      <link>https://spieltage.ch/roleplay/</link>
-      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://spieltage.ch/roleplay/</guid>
-      <description>Finsterland (Steampunk)          Anfängerfreundlich Für die ganze Familie Burgen &amp;amp; Rittertum Magie &amp;amp; Zauberwerk Rätsel Improvisation    Spielleiter: Manuela
-Anzahl Spieler: 4
-Wann: Samstag, 14 Uhr
-Dauer: 3 Stunden
-Sprache: Deutsch
-Beschreibung
-Ihr sind im Jahr 1890, auf einem ruhigen Flug auf einem Luftschiff. Eigentlich wollte ihr in die Technologie- und Magier-Haupstadt Esta. Aber am Horizont seht ihr dunkle Wolken aufziehen.</description>
-    </item>
-    
-    <item>
       <title>Test Spider</title>
       <link>https://spieltage.ch/testspider/</link>
       <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
@@ -72,19 +37,6 @@ Ihr sind im Jahr 1890, auf einem ruhigen Flug auf einem Luftschiff. Eigentlich w
       <guid>https://spieltage.ch/newsletter/</guid>
       <description> Vorname *   Nachname *   E-Mail Adresse *  Interessen Luzerner Spieltage Brettspiele Luzerner Rollenspieltage Rollenspiele Luzerner Tabletoptag Tabletop  Bitte wähle mindestens ein Interesse aus.
       (function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = &#39;EMAIL&#39;; ftypes[0] = &#39;email&#39;; fnames[1] = &#39;FNAME&#39;; ftypes[1] = &#39;text&#39;; fnames[2] = &#39;LNAME&#39;; ftypes[2] = &#39;text&#39;; }(jQuery)); var $mcj = jQuery.noConflict(true);   </description>
-    </item>
-    
-    <item>
-      <title>Helfen</title>
-      <link>https://spieltage.ch/helping/</link>
-      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://spieltage.ch/helping/</guid>
-      <description>Hallo Freunde des gepflegten oder auch ungehemmten Spielens.
-Die nächsten Luzerner Spieltage stehen vor der Tür.
-Und dazu brauchen wir dich!
-Melde dich doch noch heute und gib deinen Traumjob an. Wir versuchen natürlich auf deine Wünsche einzugehen, sind aber froh wenn du flexibel bist.
-Unser Ziel ist es die Helfereinsätze so kurz wie möglich zu halten. Aber dafür sind wir auf viele Helfer angewiesen. Die Spieltage dauern wie folgt:</description>
     </item>
     
   </channel>

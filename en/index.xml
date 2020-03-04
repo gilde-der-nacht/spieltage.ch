@@ -11,41 +11,6 @@
     
     
     <item>
-      <title>Partners</title>
-      <link>https://spieltage.ch/en/partner/</link>
-      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://spieltage.ch/en/partner/</guid>
-      <description> .logo-grid { display: grid; grid-template-columns: repeat(2,1fr); grid-gap: 50px; justify-items: center; } .logo-grid img { width: 250px; } .logo-grid .smaller { width: 140px; }           </description>
-    </item>
-    
-    <item>
-      <title>Program</title>
-      <link>https://spieltage.ch/en/program/</link>
-      <pubDate>Mon, 03 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://spieltage.ch/en/program/</guid>
-      <description>A rich and varied programme is provided on the Luzerner Spieltage:
-  Source: Library, Luzerner Spieltage 2018    Card and board games The large library with games for young and old, for strategists and connoisseurs, for individual or team fighters is the focus of the event - discover games with us, which we will explain to you on site without you having to pick up the rule book.</description>
-    </item>
-    
-    <item>
-      <title>Roleplay</title>
-      <link>https://spieltage.ch/en/roleplay/</link>
-      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://spieltage.ch/en/roleplay/</guid>
-      <description>Only english rounds are being displayed. For the german game rounds please change language of the website.
-Dungeons &amp;amp; Dragons          Beginnerfriendly Family friendly Fantasy Magic Puzzle Improvisation    Game master: Daniel
-Player count: 4
-Time: Saturday, at noon
-Duration: 3-4 hours
-Language: English
-Description
-This adventure is set in a medieval town called Rotherham. 3 man strive for power in this city and the civilians suffer under the situation.</description>
-    </item>
-    
-    <item>
       <title>Contact</title>
       <link>https://spieltage.ch/en/contact/</link>
       <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
@@ -63,20 +28,6 @@ This adventure is set in a medieval town called Rotherham. 3 man strive for powe
       <guid>https://spieltage.ch/en/newsletter/</guid>
       <description>First name *   Family name *   Email address *  Interests Luzerner Spieltage Board games Luzerner Rollenspieltage Role-playing games Luzerner Tabletoptag Tabletop games  Please choose at least one topic.
       (function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = &#39;EMAIL&#39;; ftypes[0] = &#39;email&#39;; fnames[1] = &#39;FNAME&#39;; ftypes[1] = &#39;text&#39;; fnames[2] = &#39;LNAME&#39;; ftypes[2] = &#39;text&#39;; }(jQuery)); var $mcj = jQuery.</description>
-    </item>
-    
-    <item>
-      <title>Helping</title>
-      <link>https://spieltage.ch/en/helping/</link>
-      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://spieltage.ch/en/helping/</guid>
-      <description>Hello friends.
-The next Luzerner Spieltage are just around the corner.
-And we need you for that!
-Please contact us today and let us know your dream job. Of course we try to meet your wishes, but we are happy if you are flexible.
-Our goal is to keep the duration of the shifts as short as possible. The Spieltage last as follows:
-Saturday, 7 March 2020, 10 a.m. to midnight</description>
     </item>
     
   </channel>
