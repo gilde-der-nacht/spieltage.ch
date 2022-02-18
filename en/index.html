@@ -1,127 +1,409 @@
-<!doctype html><html lang=en>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
 <head>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<title>Luzerner Spieltage | Startpage</title>
-<meta name=generator content="Hugo 0.92.0">
-<link rel=stylesheet href=/sass/main.7cfc4c420180ce6b4d2ea6dc26fec697046deeb83be34dac14d2d1450f357d76.css media=screen integrity="sha256-fPxMQgGAzmtNLqbcJv7GlwRt7rg7402sFNLRRQ81fXY=">
-</head>
-<body>
-<header>
-<div id=p-meta-nav>
-<div class=o-outer-container>
-<div id=p-site-switcher class=brand-icon>
-<a href=/en/>
-<object type=image/png data=/images/branding/logo.png height=40>
-Luzerner Spieltage
-</object>
-</a>
-</div>
-<div id=p-language>
-<ul>
-<li>
-English
-</li>
-<li>
-<a href=/>Deutsch</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div id=p-page-nav>
-<div class=o-outer-container>
-<div id=p-site-brand>
-<a href=/en/>
-<object type=image/svg+xml data=/images/branding/wordmark.svg height=40>
-Luzerner Spieltage
-</object>
-</a>
-</div>
-<input type=checkbox id=p-site-nav-toggle>
-<nav id=p-site-nav>
-<ul>
-<li>
-<a href=/en/>Startpage</a>
-</li>
-<li>
-<a href=/en/contact/>Contact</a>
-</li>
-</ul>
-</nav>
-<label for=p-site-nav-toggle id=p-site-nav-toggle-label>
-<span></span>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <title>Luzerner Spieltage</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <script src="/scripts/script.js" type="module" defer></script>
+    <script src="/icons/duotone.min.js" defer></script>
+    <script src="/icons/fontawesome.min.js" defer></script>
+    <link rel="preload" as="font" crossorigin="anonymous" href="/fonts/krona-one-normal-400.woff2" type="font/woff2">
+    <link rel="preload" as="font" crossorigin="anonymous" href="/fonts/dm-sans-normal-400.woff2" type="font/woff2">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+<meta name="msapplication-square70x70logo" content="/smalltile.png" />
+<meta name="msapplication-square150x150logo" content="/mediumtile.png" />
+<meta name="msapplication-wide310x150logo" content="/widetile.png" />
+<meta name="msapplication-square310x310logo" content="/largetile.png" />
+
+    </head>
+
+<body class=lst>
+        <header class="header">
+    <input type="checkbox" id="mobile-navigation" class="hidden" />
+<label for="mobile-navigation" class="toggle-mobile-navigation" data-toggle-mobile-navigation>
+    <svg aria-hidden="true" focusable="false" data-icon="bars-staggered" class="fa-bars-staggered open-menu-container"
+        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <g>
+            <path style="opacity: 0.4;" fill="currentColor"
+                d="M64 256C64 238.3 78.33 224 96 224H480C497.7 224 512 238.3 512 256C512 273.7 497.7 288 480 288H96C78.33 288 64 273.7 64 256z">
+            </path>
+            <path fill="currentColor"
+                d="M416 128H32C14.33 128 0 113.7 0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z">
+            </path>
+        </g>
+    </svg>
+    <svg aria-hidden="true" focusable="false" class="fa-xmark close-menu-container" role="img"
+        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+        <path fill="currentColor"
+            d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z">
+        </path>
+    </svg>
 </label>
-</div>
-</div>
-</header>
-<div class="c-jumbotron o-outer-container">
-<figure>
-<figcaption>
-Library |
-<a href=/images/DSCF4731.jpg target=_blank>Source:
-Luzerner Spieltage 2019
-</a>
-</figcaption>
-<img src=/images/DSCF4731.jpg alt=Library style="object-position:0% 60%">
-</figure>
-<h1><span>Startpage</span> 12 + 13 March 2022</h1>
-</div>
-<main class=o-inner-container>
-<div>
-<p>On the weekend of <strong>12 + 13 March 2022</strong> we will transform the hall St. Johannes in Lucerne into an oasis for players. Whether young or old, whether strategist or team player, whether hobbyist or enthusiasts, we have something for everyone on the menu. Apropos menu: a tasty meal will of course be provided.</p>
-<p>Do not hesitate to contact us via the <a href=https://spieltage.ch/en/contact/>contact form</a>, if you would like to know more or would like to help us with the planning or execution.</p>
-<div class="c-minitron u-bleed-out">
-<figure>
-<figcaption>
-Source:
-<a href=/images/DSCF4749.jpg target=_blank>Luzerner Spieltage 2019</a>
-</figcaption>
-<img src=/images/DSCF4749.jpg alt="Luzerner Spieltage 2019 by " style="object-position:0% 60%">
-</figure>
-</div>
-<h1 id=dont-miss-a-thing>Don&rsquo;t miss a thing!</h1>
-<p>We are happy to keep you up to date. We communicate actively on different channels, decide for yourself where you want to read and speak:</p>
-<h2 id=e-mail--newsletter>E-mail newsletter</h2>
-<p>Every two months we send an e-mail with the latest and most interesting information.</p>
-<p><a href=https://spieltage.ch/en/newsletter/>Subscribe to the newsletter »</a></p>
-<h2 id=discord>Discord</h2>
-<p>This modern chat platform gives you the opportunity to discuss directly with the organisers and other people interested in gaming.</p>
-<p>This platform also runs under the banner of the Gilde der Nacht, the Lucerne game society.</p>
-<p><a href=https://chat.gildedernacht.ch>More »</a></p>
-<div class="c-minitron u-bleed-out">
-<figure>
-<figcaption>
-Source:
-<a href=/images/flohmarkt.jpg target=_blank>Luzerner Spieltage 2019</a>
-</figcaption>
-<img src=/images/flohmarkt.jpg alt="Luzerner Spieltage 2019 by " style="object-position:0% 40%">
-</figure>
-</div>
-<h1 id=informations>Informations</h1>
-<p><strong>Entry fee:</strong> the event is free of charge (collection/donations are welcome)</p>
-<p><strong>Address:</strong> Pfarrei St. Johannes, Schädrütistrasse 26, 6006 Luzern</p>
-<div class=c-map>
-<div class=u-bleed-out>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16069.725822410699!2d8.32429075708862!3d47.05050314845114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478ffbe4a1717e11%3A0x6b6a12271a8eb6dc!2sSch%C3%A4dr%C3%BCtistrasse+26%2C+6006+Luzern!5e0!3m2!1sde!2sch!4v1539036534843" frameborder=0 allowfullscreen></iframe>
-</div>
-</div>
-<p>From the Lucerne train station, the location is easily reached in 15 minutes by bus 8 (Würzenbachmatte) or bus 14 (Schlösslirain).</p>
-<p>A (fee required) parking garage is 5 minutes walk away. Belongs to the Migros supermarket at the address <a href="https://www.google.com/maps/place/Migros+Supermarkt/@47.0548083,8.3433408,18.5z/data=!4m5!3m4!1s0x478ffb4e3b438fcf:0x44bae0889972cca5!8m2!3d47.0550141!4d8.3437071">Würzenbachstrasse 19, Lucerne</a>.</p>
-</div>
-</main>
-<footer>
-<section class=p-contact>
-<div class=o-outer-container>
-<div class=p-social>
-<div class=p-social-logo>
-<a href=https://discord.gg/G7mkTTB>
-<img src=/images/Discord-Logo+Wordmark-White.svg alt=Discord>
-</a>
-</div>
-</div>
-</div>
-</section>
+<aside class="mobile-menu-container">
+    <nav class="main-navigation" aria-label="main navigation">
+    <ul><li><a href="/">Startseite</a></li>
+<li><a href="/programm/">Programm</a></li>
+<li><a href="/helfen/">Helfen</a></li>
+<li><a href="/corona/">Corona-Auflagen</a></li></ul>
+</nav>
+
+    
+    <nav class="secondary-navigation" aria-label="secondary navigation">
+        <ul><li><a href="/chat/">Chat</a></li>
+<li><a href="/kontakt/">Kontakt</a></li>
+<li><a href="/newsletter/">Newsletter</a></li></ul>
+    </nav>
+
+
+    <footer class="mobile-footer">
+    <button class="button hidden" data-toggle-theme>
+    <span data-toggle-theme-to-light class="hidden">
+        <i class="fa-duotone fa-sun-bright"></i>
+    </span>
+    <span data-toggle-theme-to-dark>
+        <i class="fa-duotone fa-moon-stars"></i>
+    </span>
+</button>
+
 </footer>
-</body>
+
+</aside>
+
+
+    <div class="site-name">
+        <a href="/">
+            <h1>Luzerner Spieltage</h1>
+            
+                <h2>12. März 2022</h2>
+            
+        </a>
+    </div>
+    <div class="site-logo">
+    <a href="/">
+        
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000" height="75" width="75"
+    class="lst-logo">
+    <defs>
+        <style>
+            .lst-gradient-1 {
+                fill: url("#lst-gradient-1");
+            }
+
+            .lst-gradient-2 {
+                fill: url("#lst-gradient-2");
+            }
+
+            .lst-gradient-3 {
+                fill: url("#lst-gradient-3");
+            }
+        </style>
+        <linearGradient id="lst-gradient-1" x1="820.05" y1="684.81" x2="820.05" y2="295" gradientUnits="userSpaceOnUse">
+            <stop offset="0.2" stop-color="var(--clr-blue-to-green-start)"/>
+            <stop offset="1" stop-color="var(--clr-blue-to-green-end)"/>
+        </linearGradient>
+        <linearGradient id="lst-gradient-2" x1="160" y1="224.03" x2="510" y2="224.03" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="var(--clr-yellow-to-red-end)"/>
+            <stop offset="0.8" stop-color="var(--clr-yellow-to-red-start)"/>
+        </linearGradient>
+        <linearGradient id="lst-gradient-3" x1="169.89" y1="778.56" x2="520.21" y2="778.56"
+            gradientUnits="userSpaceOnUse">
+            <stop offset="0.2" stop-color="var(--clr-pink-to-purple-start)"/>
+            <stop offset="1" stop-color="var(--clr-pink-to-purple-end)"/>
+        </linearGradient>
+    </defs>
+    <g>
+        <path class="lst-fill-1"
+            d="M199.89,682.93V315.19h-40V684.81H160c0,.07,0,.13,0,.19a20,20,0,0,0,40,0A20.2,20.2,0,0,0,199.89,682.93Z"/>
+        <path class="lst-fill-2"
+            d="M840,685a20,20,0,0,0-29.83-17.4l-.06-.11L490,852.31,510,887,828.28,703.19A20,20,0,0,0,840,685Z"/>
+        <path class="lst-fill-3" d="M510,113.05l-.06.11a20,20,0,1,0-18.43,35.4l318.6,184,20-34.64Z"/>
+        <path class="lst-gradient-1"
+            d="M840,315.19c0-.07,0-.13,0-.19a20,20,0,0,0-40,0,20.2,20.2,0,0,0,.11,2.07V684.81h40V315.19Z"/>
+        <path class="lst-gradient-2" d="M510,147.69l-20-34.64L171.72,296.81a20,20,0,1,0,18.11,35.59l.06.11Z"/>
+        <path class="lst-gradient-3" d="M508.49,851.44l-318.6-184-20,34.64L490,887l.06-.11a20,20,0,1,0,18.43-35.4Z"/>
+    </g>
+</svg>
+
+        
+    </a>
+</div>
+
+</header>
+
+        <main class="main-content content">
+            
+            
+
+             <div class="box-success"> <span><p>Looking for the German version?</p> </span> <a href="/" class="button button-small button-success"><i class="fa-duotone fa-arrow-turn-down-right event-icon"></i> go back to the German website</a> </div> 
+<h1 id="welcome" tabindex="-1"><a class="header-anchor" href="#welcome">Welcome</a></h1>
+<p>On <strong>Saturday, March 12, 2022</strong> (9:00 a.m. to 0:30 a.m.) we will transform the <a href="https://www.google.com/maps/place/Katholische+Pfarrei+St.+Johannes+Luzern+-+W%C3%BCrzenbach/@47.0557335,8.3467125,18z/data=!4m5!3m4!1s0x478ffbe4a1717e11:0x63ba1cf90c4e4c46!8m2!3d47.055803!4d8.3448403">Pfarreisaal St. Johannes</a> into an oasis for players. Whether young or old, whether strategist or team player, whether hobbyist or enthusiasts, we have something for everyone on the menu. Apropos menu: a tasty meal will of course be provided.</p>
+<h2 id="spieltage-light" tabindex="-1"><a class="header-anchor" href="#spieltage-light">Spieltage «Light»</a></h2>
+ <div class="box-success"> <span><p>After a two years (pandemic-related) break, we start in 2022 somewhat reduced:<br> <strong>THE LUZERNER SPIELTAGE 2022 WILL ONLY TAKE PLACE ON SATURDAY!</strong></p> </span> </div> 
+<h3 id="corona-terms" tabindex="-1"><a class="header-anchor" href="#corona-terms">Corona Terms</a></h3>
+<p>Information will be updated regularly on <a href="/corona">this subpage</a>.</p>
+<h3 id="program" tabindex="-1"><a class="header-anchor" href="#program">Program</a></h3>
+<p>Come by and have one of the <strong>numerous board games</strong> explained by us.</p>
+<p>Never tried a <strong>roleplaying</strong> or <strong>tabletop/miniature</strong> game before? At the event you get the opportunity to try it out.</p>
+<p>At our <strong>flea market</strong> you will surely find a great game for your collection. Or bring your games that are looking for a new home.</p>
+<p>You can find more details on our <a href="/programm">program page</a>.</p>
+<h3 id="the-most-important-information-at-a-glance" tabindex="-1"><a class="header-anchor" href="#the-most-important-information-at-a-glance">The most important information at a glance</a></h3>
+<h4 id="opening-hours" tabindex="-1"><a class="header-anchor" href="#opening-hours">Opening hours</a></h4>
+<p>Saturday, March 12, 2022, from 9:00 a.m. to 0:30 a.m.</p>
+<h4 id="admission-und-registration" tabindex="-1"><a class="header-anchor" href="#admission-und-registration">Admission &amp; Registration</a></h4>
+<p>Admission is free of charge and registration is not required.</p>
+<h4 id="arrival" tabindex="-1"><a class="header-anchor" href="#arrival">Arrival</a></h4>
+<p>The address is: <a href="https://www.google.com/maps/place/Katholische+Pfarrei+St.+Johannes+Luzern+-+W%C3%BCrzenbach/@47.0557335,8.3467125,18z/data=!4m5!3m4!1s0x478ffbe4a1717e11:0x63ba1cf90c4e4c46!8m2!3d47.055803!4d8.3448403">Pfarrei St. Johannes, Schädrütistrasse 26, 6006 Luzern</a></p>
+<p>From the Lucerne train station, the premises are easily accessible in 15 minutes by <strong>bus 8</strong> (Get off at the <em>Würzenbachmatte</em> stop) or <strong>bus 14</strong> (Get off at the <em>Schlösslirain</em> stop).</p>
+<p>A (paid) parking garage is located a 5-minute walk away. Belongs to Migros at the address <a href="https://www.google.com/maps/place/Migros+Supermarkt/@47.0548083,8.3433408,18.5z/data=!4m5!3m4!1s0x478ffb4e3b438fcf:0x44bae0889972cca5!8m2!3d47.0550141!4d8.3437071">Würzenbachstrasse 19, Lucerne</a>.</p>
+<h4 id="food-und-beverages" tabindex="-1"><a class="header-anchor" href="#food-und-beverages">Food &amp; Beverages</a></h4>
+<p>A kiosk will be available during opening hours and <strong>at lunch and in the evening</strong> we will cook something delicious for you.</p>
+ <div class="box-success"> <span><p>If one day is too little for you, have a look at the calendar of the gaming club <strong>Gilde der Nacht</strong>. There is a game meetup already planned the day after the Luzerner Spieltage.</p> </span> <a href="https://gildedernacht.ch/en/#calendar" class="button button-small button-success"><i class="fa-duotone fa-arrow-turn-down-right event-icon"></i> to the Gilde der Nacht calendar</a> </div> 
+<h2 id="contact" tabindex="-1"><a class="header-anchor" href="#contact">Contact</a></h2>
+<p>As only some parts of our website have been translated, there is a good change you’ll have some questions. Don’t hesitate to contact us:</p>
+ <form action="https://api.gildedernacht.ch/form/02522b6176808d38d02d70bd158b212e6772e3f542ab7ab19523cb5ab235d21a" method="POST" id="form-0252""> <label >Name <input type="text" name="private-name" placeholder="Name" required/> </label>  <label >Email <input type="email" name="private-email" placeholder="Email" required/> </label>  <label class="honey">leave this field empty <input type="email" name="private-captcha" placeholder="leave this field empty" /> </label>  <label>Message <textarea type="text" name="private-message" placeholder="Message" required></textarea> </label> <input type="hidden" name="language" value="en"/><input type="hidden" name="redirect" value="https://spieltage.ch/en/#form-0252"/><input type="hidden" name="identification" value="https://spieltage.ch/en/#form-0252"/> <button type="submit" class="button-accent">Submit</button> </form> 
+
+        </main>
+        <footer class="footer">
+    <div class="site-switcher">
+    <h1>Unser Netzwerk</h1>
+    <div class="switcher">
+        <div class="logo">
+            <a href="https://gildedernacht.ch/">
+                <div class="network-name">
+                    <h2>Gilde der Nacht</h2>
+                    <h3>Luzerner Spielverein</h3>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000" height="75"
+    width="75" class="gdn-logo">
+    <defs>
+        <style>
+            .gdn-gradient-1 {
+                fill: url("#gdn-gradient-1");
+            }
+
+            .gdn-gradient-2 {
+                fill: url("#gdn-gradient-2");
+            }
+
+            .gdn-gradient-3 {
+                fill: url("#gdn-gradient-3");
+            }
+
+            .gdn-gradient-4 {
+                fill: url("#gdn-gradient-4");
+            }
+
+            .gdn-gradient-5 {
+                fill: url("#gdn-gradient-5");
+            }
+
+            .gdn-gradient-6 {
+                fill: url("#gdn-gradient-6");
+            }
+        </style>
+        <linearGradient id="gdn-gradient-1" x1="392.09" y1="221.37" x2="566.4" y2="221.37"
+            gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="var(--clr-light)" />
+            <stop offset="1" stop-color="var(--clr-base)" />
+        </linearGradient>
+        <linearGradient id="gdn-gradient-2" x1="433.6" y1="778.63" x2="607.91" y2="778.63"
+            gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="var(--clr-base)" />
+            <stop offset="1" stop-color="var(--clr-light)" />
+        </linearGradient>
+        <linearGradient id="gdn-gradient-3" x1="105" y1="385" x2="398.96" y2="385" xlink:href="#gdn-gradient-1" />
+        <linearGradient id="gdn-gradient-4" x1="601.04" y1="615" x2="895" y2="615" xlink:href="#gdn-gradient-2" />
+        <linearGradient id="gdn-gradient-5" x1="192.9" y1="653.63" x2="355.66" y2="653.63"
+            xlink:href="#gdn-gradient-1" />
+        <linearGradient id="gdn-gradient-6" x1="644.34" y1="346.37" x2="807.1" y2="346.37"
+            xlink:href="#gdn-gradient-2" />
+    </defs>
+    <g>
+        <path class="gdn-fill-1" d="M566.4,425,653,575h45.35q-4.12-8.58-8.94-16.93L612.58,425Z" />
+        <path class="gdn-fill-1"
+            d="M681,655c10.94,81.86-27.26,166.15-103.1,209.94l20,34.64A250.55,250.55,0,0,0,721.45,655Z" />
+        <path class="gdn-fill-1"
+            d="M319,345c-10.94-81.86,27.26-166.15,103.1-209.94l-20-34.64A250.55,250.55,0,0,0,278.55,345Z" />
+        <path class="gdn-fill-1" d="M433.6,575,347,425H301.65q4.13,8.58,8.94,16.93L387.42,575Z" />
+        <path class="gdn-fill-1" d="M468.25,405h173.2l22.68-39.28Q654.64,365,645,365H491.34Z" />
+        <path class="gdn-fill-1"
+            d="M821.78,438.22A249.89,249.89,0,0,0,745,385.72l-20.22,35C801.1,452.2,855,527.42,855,615h40A248.36,248.36,0,0,0,821.78,438.22Z" />
+        <path class="gdn-fill-1" d="M531.75,595H358.55l-22.68,39.28q9.5.71,19.13.72H508.66Z" />
+        <path class="gdn-fill-1"
+            d="M275.26,579.26C198.9,547.8,145,472.58,145,385H105A250.53,250.53,0,0,0,255,614.28Z" />
+        <path class="gdn-fill-1" d="M465.78,290.72q-5.37,7.88-10.19,16.21L378.76,440l23.09,40,86.6-150Z" />
+        <path class="gdn-fill-1"
+            d="M607.39,190.45a249.69,249.69,0,0,0-83.88,40.27l20.22,35c65.43-50.4,157.52-59.47,233.36-15.68l20-34.64A248.31,248.31,0,0,0,607.39,190.45Z" />
+        <path class="gdn-fill-1" d="M598.15,520l-86.6,150,22.67,39.28q5.37-7.87,10.19-16.21L621.24,560Z" />
+        <path class="gdn-fill-1"
+            d="M456.27,734.26c-65.43,50.4-157.52,59.47-233.36,15.68l-20,34.64a250.58,250.58,0,0,0,273.58-15.3Z" />
+        <path class="gdn-gradient-1" d="M566.4,345l-137-237.26a20,20,0,0,0-34.64,20L520.21,345Z" />
+        <path class="gdn-gradient-2" d="M605.23,872.26,479.79,655H433.6l137,237.26a20,20,0,1,0,34.64-20Z" />
+        <path class="gdn-gradient-3" d="M399,365H125a20,20,0,0,0,0,40H375.87Z" />
+        <path class="gdn-gradient-4" d="M875,595H624.13L601,635H875a20,20,0,0,0,0-40Z" />
+        <path class="gdn-gradient-5" d="M332.57,520l-137,237.26a20,20,0,0,0,34.64,20L355.66,560Z" />
+        <path class="gdn-gradient-6"
+            d="M797.09,215.42a20,20,0,0,0-27.32,7.32L644.34,440l23.09,40,137-237.26A20,20,0,0,0,797.09,215.42Z" />
+    </g>
+</svg>
+
+            </a>
+        </div>
+        <div class="logo">
+            <a href="https://spieltage.ch/">
+                <div class="network-name">
+                    <h2>Luzerner Spieltage</h2>
+                    <h3>12. März 2022</h3>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000" height="75" width="75"
+    class="lst-logo">
+    <defs>
+        <style>
+            .lst-gradient-1 {
+                fill: url("#lst-gradient-1");
+            }
+
+            .lst-gradient-2 {
+                fill: url("#lst-gradient-2");
+            }
+
+            .lst-gradient-3 {
+                fill: url("#lst-gradient-3");
+            }
+        </style>
+        <linearGradient id="lst-gradient-1" x1="820.05" y1="684.81" x2="820.05" y2="295" gradientUnits="userSpaceOnUse">
+            <stop offset="0.2" stop-color="var(--clr-blue-to-green-start)"/>
+            <stop offset="1" stop-color="var(--clr-blue-to-green-end)"/>
+        </linearGradient>
+        <linearGradient id="lst-gradient-2" x1="160" y1="224.03" x2="510" y2="224.03" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="var(--clr-yellow-to-red-end)"/>
+            <stop offset="0.8" stop-color="var(--clr-yellow-to-red-start)"/>
+        </linearGradient>
+        <linearGradient id="lst-gradient-3" x1="169.89" y1="778.56" x2="520.21" y2="778.56"
+            gradientUnits="userSpaceOnUse">
+            <stop offset="0.2" stop-color="var(--clr-pink-to-purple-start)"/>
+            <stop offset="1" stop-color="var(--clr-pink-to-purple-end)"/>
+        </linearGradient>
+    </defs>
+    <g>
+        <path class="lst-fill-1"
+            d="M199.89,682.93V315.19h-40V684.81H160c0,.07,0,.13,0,.19a20,20,0,0,0,40,0A20.2,20.2,0,0,0,199.89,682.93Z"/>
+        <path class="lst-fill-2"
+            d="M840,685a20,20,0,0,0-29.83-17.4l-.06-.11L490,852.31,510,887,828.28,703.19A20,20,0,0,0,840,685Z"/>
+        <path class="lst-fill-3" d="M510,113.05l-.06.11a20,20,0,1,0-18.43,35.4l318.6,184,20-34.64Z"/>
+        <path class="lst-gradient-1"
+            d="M840,315.19c0-.07,0-.13,0-.19a20,20,0,0,0-40,0,20.2,20.2,0,0,0,.11,2.07V684.81h40V315.19Z"/>
+        <path class="lst-gradient-2" d="M510,147.69l-20-34.64L171.72,296.81a20,20,0,1,0,18.11,35.59l.06.11Z"/>
+        <path class="lst-gradient-3" d="M508.49,851.44l-318.6-184-20,34.64L490,887l.06-.11a20,20,0,1,0,18.43-35.4Z"/>
+    </g>
+</svg>
+
+            </a>
+        </div>
+        <div class="logo">
+            <a href="https://rollenspieltage.ch/">
+                <div class="network-name">
+                    <h2>Luzerner Rollenspieltage</h2>
+                    <h3>27. + 28. August 2022</h3>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000" height="75"
+    width="75" class="rst-logo">
+    <defs>
+        <style>
+            .rst-gradient-1 {
+                fill: url("#rst-gradient-1");
+            }
+
+            .rst-gradient-2 {
+                fill: url("#rst-gradient-2");
+            }
+
+            .rst-gradient-3 {
+                fill: url("#rst-gradient-3");
+            }
+
+            .rst-gradient-4 {
+                fill: url("#rst-gradient-4");
+            }
+        </style>
+        <linearGradient id="rst-gradient-1" x1="89.92" y1="210.49" x2="233.63" y2="331.07"
+            gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="var(--clr-purple-light)" />
+            <stop offset="0.8" stop-color="var(--clr-purple-base)" />
+        </linearGradient>
+        <linearGradient id="rst-gradient-2" x1="566.62" y1="735.16" x2="696.22" y2="735.16"
+            xlink:href="#rst-gradient-1" />
+        <linearGradient id="rst-gradient-3" x1="156.5" y1="479.39" x2="717.44" y2="479.39"
+            gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="var(--clr-red-light)" />
+            <stop offset="0.8" stop-color="var(--clr-red-base)" />
+        </linearGradient>
+        <linearGradient id="rst-gradient-4" x1="247.21" y1="521.26" x2="882.39" y2="521.26"
+            gradientUnits="userSpaceOnUse">
+            <stop offset="0.2" stop-color="var(--clr-red-base)" />
+            <stop offset="1" stop-color="var(--clr-red-light)" />
+        </linearGradient>
+    </defs>
+    <g>
+        <path class="rst-fill-2"
+            d="M820,153a125.14,125.14,0,0,0-176.78,0L501.77,294.38h0a20,20,0,0,0,28.28,28.28h0L671.47,181.24a85.09,85.09,0,0,1,120.21,0l56.57,56.57,28.28-28.29Z" />
+        <path class="rst-fill-2"
+            d="M756.33,237.81h0l-38.89-38.89h0a20,20,0,0,0-28.29,28.28h0L728,266.09h0a20,20,0,0,0,28.29-28.28Z" />
+        <path class="rst-fill-2"
+            d="M156.77,869.33l0-.06,38.79-123.42-38.16-12L118.53,857.6h0a20,20,0,1,0,38.14,12h0Z" />
+        <path class="rst-fill-2"
+            d="M275.49,810.56a20,20,0,0,0-20.13-4.92h0L131.61,844.52l12,38.16L267,843.89l.05,0,.27-.08h0a20,20,0,0,0,8.15-33.22Z" />
+        <path class="rst-fill-1"
+            d="M332.06,223.67a19.91,19.91,0,0,0-8.51-5l-180.3-53L132,204l180.2,53a20,20,0,0,0,19.9-33.29Z" />
+        <path class="rst-gradient-1" d="M209.83,359.44l-53-180.29a20,20,0,1,0-38.34,11.39l53,180.19Z" />
+        <path class="rst-fill-1" d="M738.65,566.61l-28.29-28.28-81.31,81.32h0a20,20,0,0,0,28.28,28.28h0Z" />
+        <path class="rst-fill-1" d="M600.76,704.5l-28.28-28.29-81.32,81.32h0a20,20,0,0,0,28.29,28.29h0Z" />
+        <path class="rst-gradient-2" d="M696.22,771.67l-95.46-95.46h0a20,20,0,0,0-28.28,28.29h0L667.94,800Z" />
+        <path class="rst-fill-1"
+            d="M752.79,715.11h0L703.3,665.61h0A20,20,0,0,0,675,693.89h0l49.49,49.49h0a20,20,0,0,0,28.28-28.28Z" />
+        <path class="rst-fill-1"
+            d="M547.74,664.34a20,20,0,1,0-35.9-17.57,221.89,221.89,0,0,0-27.36,106.87q0,10.38,1,20.72l39.71-5q-.66-7.8-.67-15.72a180.93,180.93,0,0,1,23.31-89.28Z" />
+        <path class="rst-fill-1"
+            d="M738.65,538.33a19.86,19.86,0,0,0-11.71-5.69v0q-10.22-.95-20.47-1A221.46,221.46,0,0,0,599,559.36l18,35.73a181,181,0,0,1,89.53-23.45c5.19,0,10.35.23,15.47.66h0a20,20,0,0,0,16.7-34Z" />
+        <path class="rst-fill-1"
+            d="M798.75,732.78a79.74,79.74,0,0,0-56.57-23.43c-1.74,0-3.49.08-5.23.19l3.5,39.85c.57,0,1.15,0,1.73,0a40,40,0,1,1-39.95,39h-.33a20,20,0,1,0-39.68-.29,80,80,0,1,0,136.53-55.29Z" />
+        <polygon class="rst-fill-1" points="469.32 384.27 333.13 224.82 302.71 250.8 440.95 412.64 469.32 384.27" />
+        <path class="rst-fill-1"
+            d="M623,564.24h0l-17.55-20.55-28.37,28.37,15.51,18.16h0c.34.39.68.79,1.05,1.16A20,20,0,0,0,623,564.24Z" />
+        <path class="rst-fill-1"
+            d="M203.63,349.88h0a20,20,0,0,0-27.12,29.34c.37.37.77.71,1.16,1h0L337.1,516.49l28.37-28.37Z" />
+        <polygon class="rst-fill-1" points="496.51 652.65 517.06 670.21 543.04 639.79 524.88 624.28 496.51 652.65" />
+        <path class="rst-gradient-3" d="M717.44,227.2l-28.29-28.28L162.36,725.71h0A20,20,0,0,0,190.64,754h0Z" />
+        <path class="rst-gradient-4"
+            d="M876.53,209.52a20,20,0,0,0-28.28,0h0l-601,601,28.28,28.29,601-601h0A20,20,0,0,0,876.53,209.52Z" />
+    </g>
+</svg>
+
+            </a>
+        </div>
+    </div>
+</div>
+
+</footer>
+
+    </body>
+
 </html>
