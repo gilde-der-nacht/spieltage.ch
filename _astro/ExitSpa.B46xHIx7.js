@@ -1,0 +1,1 @@
+import{E as r,g as i,i as l,I as n,t as o}from"./web.BGDrlDKA.js";var s=o("<a href=?>");function f(t){return(()=>{var e=i(s);return e.$$click=a=>{a.preventDefault(),globalThis.location.href=`${globalThis.location.origin}${t.href}`},l(e,()=>t.children),n(),e})()}r(["click"]);export{f as E};
